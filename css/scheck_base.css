@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+	html,
+	body {
+		width:100%;
+		margin: 0;
+		font-family:"Hiragino Kaku Gothic Pro","�q���M�m�p�S Pro W3",'���C���I',Meiryo,"�l�r �o�S�V�b�N","MS PGothic",sans-serif;
+		line-height: 1.5;
+		color:#000;
+		background-color:#F9EFF1;
+	}
+    table {
+        margin: 0px 0px 0px 20px;
+    }
+    th,tr,td {
+        font-size: 95%;
+        white-space: nowrap;
+        table-layout: fixed;
+    }
+    #disButton {
+        width:100px;
+        font-size:16px;
+        font-weight:bold;
+        text-decoration:none;
+        text-align:center;
+        padding:4px 0 4px;
+        color:#c0c0c0;
+        background-color:#dcdcdc;
+        border-radius:5px;
+	    margin: 0 auto;
+	    cursor: pointer;
+    }
+    #nodisButton {
+	    width:100px;
+	    font-size:16px;
+	    font-weight:bold;
+	    text-decoration:none;
+	    text-align:center;
+	    padding:4px 0 4px;
+	    color:#fff;
+	    background-color:#cc6699;
+	    border-radius:5px;
+	    margin: 0 auto;
+	    cursor: pointer;
+    }
+
+/*---追加---*/
+.m-0{
+    margin: 0 auto;
+}
+.ta-c{
+    text-align: center;
+}
+.ta-s{
+    text-align: start;
+}
+.ta-e{
+    text-align: end;
+}
+.color-1{
+    color: #cc6699;
+}
+.color-2{
+    color: red;
+}
+.color-3{
+    color: blue;
+}
+.color-4{
+    color: white;
+}
+.bgcolor-1{
+    background-color: #191970;
+}
+.bgcolor-2{
+    background-color: #e6EEEE;
+}
+.bgcolor-3{
+    background-color: #112b79;
+}
+.bgcolor-4{
+    background-color: #fff5ee;
+}
+.ui-datepicker-trigger{
+    vertical-align: middle;
+}
+.fs-32{
+	font-size: 32px;
+}
+.p-r{
+    position: relative;
+}
+.p-a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}

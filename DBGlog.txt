@@ -1,0 +1,133 @@
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+examination_status_cd:[0000]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+examination_status_cd:[0000]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+examination_status_cd:[0002]
+EXAMINEE_DATE_FROM:[2024-04-01]
+EXAMINEE_DATE_TO:[2024-04-30]
+IS_PAPERRES_OPERATION:[1]
+examination_status_cd:[0002]
+setFont CALLED: helvetica, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexm, , 10
+setFont CALLED: ipaexm, , 16
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexg, , 12
+setFont CALLED: ipaexg, , 20
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexg, , 12
+setFont CALLED: helvetica, , 1
+setFont CALLED: ipaexg, , 12
+setFont CALLED: ipaexg, , 12
+setFont CALLED: helvetica, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexm, , 10
+setFont CALLED: ipaexm, , 16
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexg, , 12
+setFont CALLED: ipaexg, , 20
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexg, , 12
+setFont CALLED: helvetica, , 1
+setFont CALLED: ipaexg, , 12
+setFont CALLED: ipaexg, , 12
+setFont CALLED: helvetica, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexm, , 10
+setFont CALLED: ipaexm, , 16
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, B, 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexg, , 12
+setFont CALLED: ipaexg, , 20
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 12
+setFont CALLED: ipaexm, , 11
+setFont CALLED: ipaexg, , 12
+setFont CALLED: helvetica, , 1
+setFont CALLED: ipaexg, , 12
+setFont CALLED: ipaexg, , 12

@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+
+
+/*
+10 	77
+11 	85
+12 	93
+13 	100
+14 	108
+15 	116
+16 	123.1
+17 	131
+18 	138.5
+19 	146.5
+20 	153.9
+21 	161.6
+22 	167
+23 	174
+24 	182
+25 	189
+26 	197
+*/
+
+
+
+#contents{
+width:980px;
+height:400px;
+position:absolute;
+top:50%;
+left:50%;
+margin-left:-490px;
+margin-top:-280px;
+text-align:left;
+}
+
+#contents-variable{
+width:980px;
+position:absolute;
+left:50%;
+margin-left:-490px;
+text-align:left;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+#screen{
+background: url("bg-screen.png") left top no-repeat;
+width:976px;
+height:380px;
+padding:2px;
+}
+
+#screen-middle{
+background: url("bg-screen-middle.png") left top repeat-y;
+width:980px;
+}
+
+#screen-top{
+background: url("bg-screen-top.png") left top no-repeat;
+width:976px;
+padding:2px;
+}
+
+#screen-bottom{
+background: url("bg-screen-bottom.png") left bottom no-repeat;
+width:980px;
+}
+
+#kokoro{
+width:138px;
+height:40px;
+overflow:hidden;
+margin-top: 10px;
+}
+
+#goverment{
+width:114px;
+height:40px;
+position:absolute;
+right:0;
+bottom:0;
+overflow:hidden;
+}
+
+#tools{
+background:url("separator.png") left top no-repeat;
+width:707px;
+height:40px;
+padding:0 0 0 22px;
+position:absolute;
+left:138px;
+bottom:0;
+}
+
+#social{
+margin: 15px 0 0 0;
+height: 25px;
+overflow: hidden;
+}
+
+#header{
+width: 976px;
+height:52px;
+background:url("bg-header.png") 0 50px no-repeat;
+position: relative;
+overflow: hidden;
+}
+
+#parent{
+display: inline-block;
+position: absolute;
+top:10;
+left:18px;
+}
+
+#main{
+position: absolute;
+width:976px;
+height:360px;
+overflow: hidden;
+margin: 0 auto;
+}
+
+#screen-top #main{
+position: relative;
+width:976px;
+height: auto;
+overflow: hidden;
+}
+
+#progressbar{
+width: 940px;
+height:20px;
+position: absolute;
+right: 18px;
+}
+
+#location{
+width: 940px;
+height:50px;
+display: table-cell;
+vertical-align: middle;
+text-align: right;
+_padding-top:15px;
+_height:35px;
+*padding-top:15px;
+*height:35px;
+}
+
+#contents-variable #identity{
+margin-bottom: 20px;
+position: relative;
+height: 40px;
+}
+
+#identity{
+height: 50px;
+}
+
+#debugger{
+background: #000;
+position: absolute;
+width: 100%;
+color: #fff;
+}
+
+
+

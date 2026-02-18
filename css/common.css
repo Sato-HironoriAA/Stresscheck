@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+.clearfix {zoom:1;}
+.clearfix:after{
+content: ""; 
+display: block; 
+clear: both;
+}
+
+/* color pallette */
+
+.c1,
+.red{
+color:#000000;
+}
+
+.c2,
+.orange{
+color:#000000;
+}
+
+.c3,
+.green{
+color:#000000;
+}
+
+.c4,
+.water{
+color:#000000;
+}
+
+.c5,
+.blue{
+color:#000000;
+}
+
+.c6,
+.purple{
+color:#000000;
+}
+
+.c7,
+.pink{
+color:#000000;
+}
+
+.c8,
+.grey{
+color:#000000;
+}
+
+
+/* body */
+
+html,
+body {
+width:100%;
+margin: 0;
+font-family:"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",'メイリオ',Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+line-height: 1.5;
+color:#000;
+background-color:#F9EFF1;
+}
+
+p{
+margin-bottom:10px;
+}
+
+a{
+outline: none;
+cursor: pointer;
+}
+
+.card{
+width:940px;
+height:360px;
+padding: 18px;
+position: relative;
+float: left;
+top:10px;
+}
+
+#screen-top .card{
+width:940px;
+height:auto;
+padding: 18px;
+padding-bottom:43px;
+position: relative;
+float: none;
+top:10px;
+}
+
+.stage{
+position: relative;
+width:65000px;
+height:360px;
+}
+
+.next,
+.prev,
+.goTitle,
+.btnNext,
+.btnPrev,
+.btnSend,
+.btnNextText,
+.btnLogIn,
+.btnConsent{
+cursor: pointer;
+}
+
+.btnPrev{
+	width:108px;
+	height:13px;
+	display: block;
+	cursor: pointer;
+	position: fixed;
+	bottom:20px;
+	left:180px;
+	display: block;
+}
+
+.btnTitle{
+	width:108px;
+	height:13px;
+	display: block;
+	cursor: pointer;
+	position: fixed;
+	bottom:20px;
+	left:60px;
+	display: block;
+}
+
+.logOff{
+    width:120px;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:4px 0 4px;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:5px;
+}
+
+.btnLogIn{
+    width:100px;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:4px 0 4px;
+    color:#fff;
+    background-color:#cc6699;
+    border-radius:5px;
+    margin: 0 auto;
+}
+
+.btnConsent{
+    width:100px;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:4px 0 4px;
+    color:#fff;
+    background-color:#cc6699;
+    border-radius:5px;
+    margin: 0 auto;
+}
+
+.btnNext,
+.next{
+    width:100px;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:4px 0 4px;
+    color:#fff;
+    background-color:#cc6699;
+    border-radius:5px;
+}
+
+.btnSend{
+    width:100px;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:4px 0 4px;
+    color:#fff;
+    background-color:#cc6699;
+    border-radius:5px;
+    margin: 0 auto;
+}
+
+.cover{
+width:798px;
+position: absolute;
+left:148px;
+top:30px;
+}
+
+.cover .lead{
+margin-bottom: 10px;
+font-size: 150%;
+top:30px;
+}
+
+.shoulder{
+font-size: 100%;
+}
+
+.p{
+margin-bottom: 40px;
+}
+
+
+#progressbar ul{
+display: inline-block;
+position: absolute;
+right: 0;
+/* top:19px; */
+}
+
+#progressbar ul li{
+width: 12px;
+height: 12px;
+background: url("../img/progress.png") left top no-repeat;
+display: block;
+float: left;
+margin-left: 6px;
+margin-top: 0px;
+
+filter: alpha(opacity=20);
+-moz-opacity:0.2;
+opacity:0.2;
+
+}
+
+.centerText{
+width:940px;
+height:280px;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+font-size: 293%;
+font-weight: bold;
+_padding-top:90px;
+}
+
+.positionBottom{
+top:374px;
+}

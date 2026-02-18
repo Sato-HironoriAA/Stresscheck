@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+html,
+body {
+width:100%;
+margin: 0;
+font-family:"Hiragino Kaku Gothic Pro","ÉqÉâÉMÉmäpÉS Pro W3",'ÉÅÉCÉäÉI',Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN","MS PGothic",sans-serif;
+line-height: 1.5;
+color:#000;
+background-color:#F9EFF1;
+}
+
+.stressCheckChoice{
+width: 940px;
+height: 70px;
+overflow: hidden;
+position: absolute;
+top:160px;
+text-align: center;
+}
+
+.stressCheckChoice2{
+width: 940px;
+height: 70px;
+overflow: hidden;
+position: absolute;
+top:160px;
+text-align: center;
+margin: 0 auto;
+}
+
+.choice1,
+.choice2,
+.choice3,
+.choice4{
+/*text-indent: -99999px;
+display: block;*/
+position: absolute;
+}
+
+.step1 .choice1{
+left: 240px;
+}
+.step1 .choice1:active{
+left: 240px;
+}
+
+.step1 .choice2{
+left:360px;
+}
+
+.step1 .choice2:active{
+left:360px;
+}
+
+.step1 .choice3{
+left:480px;
+}
+
+.step1 .choice3:active{
+left:480px;
+}
+
+.step1 .choice4{
+left:600px;
+}
+
+.step1 .choice4:active{
+left:600px;
+
+}
+
+.step2 .choice1{
+left: 240px;
+}
+.step2 .choice1:active{
+left: 240px;
+}
+
+.step2 .choice2{
+left:360px;
+}
+
+.step2 .choice2:active{
+left:360px;
+}
+
+.step2 .choice3{
+left:480px;
+}
+
+.step2 .choice3:active{
+left:480px;
+}
+
+.step2 .choice4{
+left:600px;
+}
+
+.step2 .choice4:active{
+left:600px;
+
+}
+
+.step3 .choice1{
+left: 240px;
+}
+.step3 .choice1:active{
+left: 240px;
+}
+
+.step3 .choice2{
+left:360px;
+}
+
+.step3 .choice2:active{
+left:360px;
+}
+
+.step3 .choice3{
+left:480px;
+}
+
+.step3 .choice3:active{
+left:480px;
+}
+
+.step3 .choice4{
+left:600px;
+}
+
+.step3 .choice4:active{
+left:600px;
+
+}
+
+.step4 .choice1{
+left: 240px;
+}
+.step4 .choice1:active{
+left: 240px;
+}
+
+.step4 .choice2{
+left:360px;
+}
+
+.step4 .choice2:active{
+left:360px;
+}
+
+.step4 .choice3{
+left:480px;
+}
+
+.step4 .choice3:active{
+left:480px;
+}
+
+.step4 .choice4{
+left:600px;
+}
+
+.step4 .choice4:active{
+left:600px;
+
+}
+
+.stressCheckText{
+position:absolute;
+width:940px;
+height:300px;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+font-size: 150%;
+_padding-top:20px;
+*padding-top:20px;
+top:30px;
+}
+
+.stressCheckEndText{
+position:absolute;
+width:940px;
+height:300px;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+font-size: 150%;
+_padding-top:20px;
+*padding-top:20px;
+top:30px;
+}
+
+.resultFrame-bottom{
+padding:20px;
+text-align: center;
+font-size:182%;
+font-weight: bold;
+}
+
+.i17 .stressCheckText{
+width:500px;
+text-align: center;
+top: 10px;
+}
+
+.memo{
+position: absolute;
+right:15px;
+bottom:15px;
+}

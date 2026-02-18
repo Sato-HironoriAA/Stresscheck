@@ -1,0 +1,395 @@
+@charset "utf-8";
+
+body {
+	font: 15px/1.5 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	background-color:#F9EFF1;
+}
+h1,h2,h3,h4,h5 {
+	margin: 0px;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1.5;
+}
+p {
+	margin: 0px;
+}
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ol {
+	margin: 0px;
+	padding: 0px 0px 0px 25px;
+}
+dl,dt,dd {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+}
+a:hover {
+}
+a img {
+	border: none;
+}
+img {
+	width: auto\9;
+	height: auto;
+	max-width: 100%;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+.clearfix {
+	zoom:1;
+}
+.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+}
+#contents {
+	position: relative;
+	width: 320px;
+	margin: 0px auto;
+}
+
+/* -------------------- header */
+#header {
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	width: 100%;
+	height: 100px;
+}
+#header .item {
+	position: absolute;
+	top: 0px;
+	left: 320px;
+	width: 300px;
+	padding: 0px 10px;
+	text-align: center;
+	margin: 0px auto;
+}
+#header .item:first-child {
+	left: 0px;
+}
+#header .i2 .title {
+	width: 176px;
+	text-align: center;
+}
+#header #step {
+	position: relative;
+	width: 300px;
+	height: 40px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+#header #step li {
+	position: absolute;
+	top: 7px;
+	left: 320px;
+}
+#header #step .s1 {
+	width: 300px;
+	padding: 0px 0px;
+}
+#header #step .s2 {
+	width: 300px;
+	padding: 0px 0px;
+}
+#header #step .s3 {
+	width: 300px;
+	padding: 0px 0px;
+}
+#header #step .s4 {
+	width: 300px;
+	padding: 0px 0px;
+}
+#progress {
+	overflow: hidden;
+	position: relative;
+	left: 320px;
+	width: 100%;
+	height: 5px;
+	border-radius: 2px;
+	background: rgba(240,148,149,0.2);
+}
+#progress span {
+	display: block;
+	width: 0%;
+	height: 5px;
+	border-radius: 2px;
+	background: rgba(240,148,149,1.0);
+}
+
+/* -------------------- main */
+#main {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 900px;
+	top:5px;
+}
+#main .stage {
+	width: 21420px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#main .item {
+	overflow: hidden;
+	position: relative;
+	float: left;
+	width: 280px;
+	height: 750px;
+	padding: 30px 20px 0px 20px;
+	font-size:18px;
+}
+#main .item_t {
+	overflow: hidden;
+	position: relative;
+	float: left;
+	width: 280px;
+	height: 750px;
+	padding: 5px 20px 0px 20px;
+	font-size:16px;
+}
+#main h1 {
+	margin-bottom: 12px;
+}
+#main h2 {
+	margin-bottom: 20px;
+}
+#main .cover {
+	height: 750px;
+	padding-top: 0px;
+}
+#main .cover .read {
+	margin-bottom: 5px;
+}
+#main .cover .read2 {
+	margin-bottom: 0px;
+}
+#main .step {
+	height: 750px;
+	padding-top: 0px;
+}
+#main .txt {
+	display: table-cell;
+	width: 280px;
+	height: 150px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.4;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+#main .txt .shoulder {
+	display: inline-block;
+	font-size: 13px;
+}
+#main .txt .shoulder.bk {
+	display: block;
+}
+#main .step.s1 {
+
+}
+#main .s1 .txt {
+	color: #7ab15d;
+}
+#main .step.s2 {
+
+}
+#main .s2 .txt {
+	color: #4e81c4;
+}
+#main .step.s3 {
+
+}
+#main .s3 .txt {
+	color: #4d9fb3;
+}
+#main .step.s4 {
+
+}
+#main .s4 .txt {
+	color: #d6893d;
+}
+#main .result {
+	padding: 0px 20px 0px 20px;
+}
+#main .s4 .txt {
+	color: #d6893d;
+}
+
+/* -------------------- b_g */
+.check .b_g, 
+.result form {
+	position: absolute;
+	bottom: 0px;
+	margin: 0 auto;
+}
+.btnNext,
+.btnSend,
+.btnLogin,
+.btnConsent,
+.btnClose,
+.next {
+    width:260px;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:5px 0 5px;
+    color:#fff;
+    background-color:#cc6699;
+    border-radius:5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.result input {
+	width: 280px;
+	height: 44px;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+.cover .choice1 {
+
+}
+.cover .choice2 {
+
+}
+.step .next {
+
+}
+.s1 .choice1 {
+
+}
+.s1 .choice2 {
+
+}
+.s1 .choice3 {
+
+}
+.s1 .choice4 {
+
+}
+.s2 .choice1 {
+
+}
+.s2 .choice2 {
+
+}
+.s2 .choice3 {
+
+}
+.s2 .choice4 {
+
+}
+.s3 .choice1 {
+
+}
+.s3 .choice2 {
+
+}
+.s3 .choice3 {
+
+}
+.s3 .choice4 {
+
+}
+.s4 .choice1 {
+
+}
+.s4 .choice2 {
+
+}
+.s4 .choice3 {
+
+}
+.s4 .choice4 {
+
+}
+
+/* -------------------- footer */
+#footer {
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	width: 100%;
+	height: 50px;
+}
+#footer .item {
+	position: absolute;
+	top: 0px;
+	left: 320px;
+	width: 300px;
+	padding: 0px 10px 10px 10px;
+}
+#footer .item:first-child {
+	left: 0px;
+}
+#footer #social {
+	overflow: hidden;
+	position: relative;
+	top: 7px;
+	width: 260px;
+	margin-bottom: 10px;
+	padding-left: 50px;
+}
+#footer #social .addthis_button_facebook_like {
+	margin-right: 17px;
+}
+#footer .notice {
+	font-size: 9px;
+}
+#footer ul {
+	padding: 20px 10px;
+}
+#footer .btnPrev {
+	float: right;
+	width: 94px;
+}
+#footer .btnTitle {
+	float: left;
+	width: 118px;
+}
+#footer .btnReport {
+	float: left;
+	width: 75px;
+}
+#footer .admin {
+	clear: both;
+	padding: 5px 0px;
+	border-top: 1px solid #e5e5e5;
+}
+#footer .kokoro {
+	float: left;
+	width: 76px;
+	height: 16px;
+}
+#footer .goverment {
+	float: right;
+	width: 57px;
+	height: 16px;
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 9000;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+}
